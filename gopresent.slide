@@ -1,0 +1,33 @@
+# Presentation as Code
+a present tool (not) only for gophers
+
+Jerry Zhao
+15 Apr 2021
+
+## don't we have enough?
+.image Death_by_PowerPoint.jpg _ 980
+
+## install it as easy as 123
+0) **install Go**
+0) **install present**  
+	`$ go get golang.org/x/tools/cmd/present`  
+	optionally, add `~/go/bin` to your PATH
+0) **start**  
+	go to your presentation folder  
+	`$ present -base ~/go/pkg/mod/golang.org/x/tools@v0.1.0/cmd/present`
+0) **present**  
+	`$ open http://127.0.0.1:3999/`
+
+.link https://github.com/golang/go/issues/43459 golang issue #43459
+
+## what's in a presentation folder?
+- **a .slide file**  
+	a plain text file in _Markdown_ syntax, with _Command Invocations_ to resources
+- **resources**  
+	- images (including background)
+	- videos
+	- code
+	- etc.
+
+##
+.image show_me_the_code.jpg _ 900
